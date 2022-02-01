@@ -1,5 +1,6 @@
 #results{
   font-family: 'Courier New', Courier, monospace;
+  padding: 1em;
 }
 
 label, input{
@@ -11,4 +12,13 @@ input[type=button], input[type=reset]{
   padding:0.5em;
 }
 
-body{padding: 3em}
+form{
+	margin: 1em;
+	padding: 1em;
+	background-color: #fafafa;
+  border-radius: 0.5em;
+}
+
+fieldset{
+  border-radius: 0.5em;
+}
