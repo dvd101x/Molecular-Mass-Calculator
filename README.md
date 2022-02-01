@@ -4,7 +4,9 @@ Uses javascript to calculate molecular mass and mass proportions from a given ch
 
 # Getting started
 
-Open this page https://dvd101x.github.io/Molecular-Mass-Calculator/ and run the test formula or one of the following.
+Open this page https://dvd101x.github.io/Molecular-Mass-Calculator/ and run the defualt formula or one of the following.
+
+After that try one of your own.
 
 | Name              | Formula           |
 | :---------------- | :---------------- |
