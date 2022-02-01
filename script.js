@@ -16,7 +16,7 @@ function calculateMolecule(formula) {
   const elementAndNumber = /[A-Z][a-z]{0,2}\d*/
   const element = /[A-Z][a-z]{0,2}/
   const numberAfterElement = /\d+$/
-  const validFormula = /[A-Z][a-z]{0,2}\d*|\(|\)\d*/g
+  const validFormula = /[A-Z][a-z]{0,2}\d*|\(|\)\d*|\./g
   const closingParenthesis = /^\)\d*$/
   const openingParenthesis = /^\($/
   const chemArray = formula.match(validFormula)//splits string into valid values
