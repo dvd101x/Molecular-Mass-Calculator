@@ -1,0 +1,30 @@
+<html>
+
+<head>
+	<title>Molecular Mass calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<form>
+		<h1>Molecular Mass Calculator</h1>
+		<p>
+			Enter the molecular formula e.g. <b>Cu(CH2H3O2)2H2O</b> and press Calculate, it will find the total molecular mass and the proportions for each element.
+    </p>
+    <label>Formula: 
+      <input type=text size="20" id="formula" autofocus value="Cu(CH2H3O2)2H2O">
+    </label>
+    <label>Digits: 
+      <input type="number" id="digits" value="4" min="1" max="10">
+    </label>
+    <br>
+    <input type="button" id = "calculateButton" value="Calculate">
+    <input type="reset" value="Clear"><br>
+    <label>
+      Results:<br>
+      <textarea cols=60 rows=20 readonly id="results"></textarea>
+    </label>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

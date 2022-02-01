@@ -1,0 +1,14 @@
+#results{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+label, input{
+  margin-top: 0.5em;
+  margin-bottom:0.5em;
+  }
+
+input[type=button], input[type=reset]{
+  padding:0.5em;
+}
+
+body{padding: 3em}
