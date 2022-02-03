@@ -3,9 +3,14 @@ const formFormula = document.getElementById('formula')
 const formDigits = document.getElementById('digits')
 const calculateButton = document.getElementById('calculateButton')
 const results = document.getElementById('results')
+const examples = document.getElementById('examples')
 
 calculateButton.addEventListener('click', function () {
   results.value = showResults(formFormula.value, formDigits.value) + '\n' + results.value
+})
+
+examples.addEventListener('input', function(){
+  formFormula.value = examples.value
 })
 
 // Atomic mass per element
