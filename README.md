@@ -6,6 +6,10 @@ Uses javascript to calculate molecular mass and mass proportions from a given ch
 
 Open this page https://dvd101x.github.io/Molecular-Mass-Calculator/ and run the defualt formula, one of the examples or another chemical formula.
 
+# Advanced
+
+You can get the same results and use the results on further calculations with https://github.com/dvd101x/Engineering-Solver
+
 # References
 
 Based on these websites:
