@@ -8,7 +8,7 @@ Open this page https://dvd101x.github.io/Molecular-Mass-Calculator/ and run the 
 
 # Advanced
 
-You can get the same results and use the results on further calculations with https://github.com/dvd101x/Engineering-Solver
+You can get the same results and use them on further calculations with https://github.com/dvd101x/Engineering-Solver
 
 # References
 
