@@ -92,12 +92,14 @@ function showResults(formula, digits) {
   const usedFormula = molecule.formula
   const total = molecule.totalMass
 
+  const fix = (x) => x.toFixed(digits)
+
   let allResults = usedFormula + "\n" + "-".repeat(60) + '\n';
   for (let [ele, atoms] of Object.entries(elements)) {
     eltotal = atoms * atom[ele]
-    allResults += atoms + " " + ele + " * " + atom[ele].toFixed(digits) + " = " + eltotal.toFixed(digits) + " (" + (eltotal / total * 100).toFixed(digits) + "% of mass)" + "\n";
+    allResults += `${atoms} ${ele} * ${fix(atom[ele])} = ${fix(eltotal)} (${fix(eltotal / total * 100)}% of mass)` + "\n";
   }
   allResults += "=".repeat(60) + '\n'
-  allResults += "Total: " + total.toFixed(digits) + " g/mol\n";
+  allResults += `Total: ${fix(total)} g/mol`+"\n";
   return allResults
 }
